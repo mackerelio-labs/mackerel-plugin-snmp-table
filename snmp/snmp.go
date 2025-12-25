@@ -39,7 +39,7 @@ func NewHandler(ctx context.Context, target, community string) Handler {
 }
 
 func (x *snmpHandler) Close() error {
-	return x.GoSNMP.Conn.Close()
+	return x.Conn.Close()
 }
 
 type SNMP struct {
