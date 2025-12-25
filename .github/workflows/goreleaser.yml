@@ -1,0 +1,9 @@
+name: goreleaser
+
+on:
+  push:
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+"
+jobs:
+  goreleaser:
+    uses: mackerelio/workflows/.github/workflows/goreleaser.yml@52736435ff08612880b76fd6618ca82ae7bba420 # v1.8.0

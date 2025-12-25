@@ -1,0 +1,16 @@
+version: 2
+builds:
+  - binary: mackerel-plugin-snmp-table
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+    goarch:
+      - amd64
+      - arm64
+archives:
+  - formats:
+      - zip
+    name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
+release:
+  github:
