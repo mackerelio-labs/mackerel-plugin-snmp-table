@@ -1,4 +1,4 @@
-module github.com/yseto/mackerel-plugin-snmp-table
+module github.com/mackerelio-labs/mackerel-plugin-snmp-table
 
 go 1.23.0
 

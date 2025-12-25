@@ -20,9 +20,9 @@ import (
 	"github.com/sleepinggenius2/gosmi/types"
 	"gopkg.in/yaml.v3"
 
-	"github.com/yseto/mackerel-plugin-snmp-table/config"
-	"github.com/yseto/mackerel-plugin-snmp-table/smi"
-	"github.com/yseto/mackerel-plugin-snmp-table/snmp"
+	"github.com/mackerelio-labs/mackerel-plugin-snmp-table/config"
+	"github.com/mackerelio-labs/mackerel-plugin-snmp-table/smi"
+	"github.com/mackerelio-labs/mackerel-plugin-snmp-table/snmp"
 )
 
 var (
